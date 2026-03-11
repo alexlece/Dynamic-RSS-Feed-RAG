@@ -1,4 +1,4 @@
-# 🚀 Guía de Uso — RSS & BOE RAG System
+# 🚀 Guía de Uso
 
 Sigue estos pasos para **configurar, indexar y consultar** el sistema.
 
