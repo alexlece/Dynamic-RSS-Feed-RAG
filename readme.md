@@ -46,9 +46,8 @@ Antes de ejecutar el sistema debes definir qué fuentes quieres monitorizar.
 Edita el archivo:
 
 ```
-src/utils/config.json
+data/RSS_Info.json
 ```
-
 y añade las URLs de los feeds RSS o secciones XML del BOE.
 
 ### Ejemplo
