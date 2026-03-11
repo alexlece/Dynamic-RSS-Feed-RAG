@@ -1,7 +1,40 @@
+# Dynamic RSS RAG System
+
+Sistema de **ingestión, indexación y consulta inteligente de información** basado en **RAG (Retrieval-Augmented Generation)** para **fuentes RSS dinámicas**.
+
+El proyecto captura contenido desde **RSS feeds configurables**, lo **preprocesa y normaliza**, genera **embeddings semánticos** utilizando **Google Gemini** y los almacena en una **base de datos vectorial (Qdrant)**.
+
+A partir de estos datos indexados, el sistema expone una **API basada en FastAPI** que permite realizar **consultas en lenguaje natural**, recuperando la información más relevante mediante **búsqueda semántica** y generando respuestas contextualizadas usando un **LLM**.
+
+El sistema está diseñado para funcionar de forma **dinámica e incremental**, permitiendo actualizar continuamente la base de conocimiento a medida que aparecen nuevos contenidos en los feeds.
+
+## Características principales
+
+- 📡 **Ingestión dinámica de RSS feeds**
+- 🧹 **Preprocesamiento y normalización de contenidos**
+- 🧠 **Generación de embeddings con Google Gemini**
+- 🗂 **Indexación vectorial en Qdrant**
+- 🔎 **Búsqueda semántica sobre documentos indexados**
+- ⚡ **API REST con FastAPI para consultas RAG**
+- 📈 **Indexación incremental que mantiene el histórico**
+
+## Ejemplos de uso
+
+El sistema puede aplicarse a múltiples tipos de fuentes RSS, por ejemplo:
+
+- 📰 **Medios de comunicación y agregadores de noticias**
+- ⚖️ **Publicaciones oficiales** como el **BOE**
+- 💰 **Feeds económicos o financieros**
+- ⚽ **Noticias deportivas**
+- 🧑‍💻 **Blogs técnicos o documentación**
+
+---
+
+
+
+
+
 # 🚀 Guía de Uso
-
-Sigue estos pasos para **configurar, indexar y consultar** el sistema.
-
 ---
 
 # 1. Requisitos Previos
