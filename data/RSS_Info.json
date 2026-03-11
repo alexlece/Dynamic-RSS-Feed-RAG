@@ -1,0 +1,40 @@
+{
+  "rss_feeds": [
+    {
+      "categoria": "Economía",
+      "fuente": "Expansión",
+      "url": "https://e00-expansion.uecdn.es/rss/portada.xml",
+      "descripcion": "Noticias económicas, empresas, bolsa y mercados financieros."
+    },
+    {
+      "categoria": "Fútbol",
+      "fuente": "AS",
+      "url": "https://as.com/rss/futbol/primera.xml",
+      "descripcion": "Actualidad de La Liga, fichajes y competiciones internacionales."
+    },
+{
+      "categoria": "Tecnología",
+      "fuente": "Wired",
+      "url": "https://www.wired.com/feed/rss",
+      "descripcion": "Referencia global en tecnología, seguridad y cultura digital."
+    },
+    {
+      "categoria": "Ciencia",
+      "fuente": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "descripcion": "Últimas noticias y descubrimientos científicos internacionales (en inglés)."
+    },
+    {
+      "categoria": "Noticias Generales",
+      "fuente": "El País",
+      "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada",
+      "descripcion": "Noticias globales, política, economía y cultura del diario español El País."
+    },
+      {
+        "categoria": "Avisos del Gobierno",
+        "fuente": "Boletín Oficial del Estado",
+        "url": "https://www.boe.es/rss/canal_cpv.php?l=a&c=720",
+        "descripcion": "Avisos y noticias oficiales del gobierno español."
+      }
+  ]
+}
