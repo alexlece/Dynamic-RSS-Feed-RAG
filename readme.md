@@ -169,12 +169,6 @@ uv run fastapi run src/main.py
 
 Una vez iniciada:
 
-### API
-
-```
-http://localhost:8000
-```
-
 ### Documentación interactiva (Swagger)
 
 ```
